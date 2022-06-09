@@ -4,14 +4,14 @@ import HomeHeader from './HomeHeader/HomeHeader';
 import Projects from './Projects/Projects';
 
 
-const Home  = () => {
+const Home = () => {
     return (
         <div>
-         
-            <HomeHeader/>
-            <Projects/>
+
+            <HomeHeader />
+            <Projects />
         </div>
     );
 };
 
-export default Home ;
+export default Home;

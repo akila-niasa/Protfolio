@@ -8,7 +8,7 @@ import ProjectSummaryDetails from '../ProjectSummaryDetails/ProjectSummaryDetail
 const Projects = () => {
     const projectsData = [
         {
-            id:'1',
+            id: '1',
             image: bicycleParts,
             title: "BiCycle Parts Website",
             description:
@@ -19,7 +19,7 @@ const Projects = () => {
             tags: "reactjs,express js,react-router,tailwind,firebase-auth,mongoDB,react-hook form"
         },
         {
-            id:'2',
+            id: '2',
             image: carRepair,
             title: "Car Repair Website",
             description:
@@ -30,7 +30,7 @@ const Projects = () => {
             tags: "reactjs,bootstrap,react-router,firebase-auth,mongodb,react-hook form"
         },
         {
-            id:'3',
+            id: '3',
             image: laptopStore,
             title: "Laptop Store Website",
             description:
@@ -41,7 +41,7 @@ const Projects = () => {
             tags: "bootstrap,reactjs,react-router,firebase-auth,"
         },
         {
-            id:'5',
+            id: '5',
             image: Wedding,
             title: "Wedding Photographer Website",
             description:

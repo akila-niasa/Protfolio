@@ -10,12 +10,12 @@ import Contact from './Components/Contact/Contact';
 function App() {
   return (
     <div className="App">
-    <NavBar/>
-     <Routes>
-       <Route path='/' element={<Home/>}/>
-       <Route path='contact' element={<Contact/>}/>
+      <NavBar />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='contact' element={<Contact />} />
 
-     </Routes>
+      </Routes>
     </div>
   );
 }
