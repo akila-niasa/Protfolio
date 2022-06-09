@@ -1,13 +1,130 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+      monospace;
+}
+
+/* custon css code */
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  background: #19547b;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #042439, #9badff);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #042439, #9badff);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+.section {
+  margin-top: 30px;
+}
+
+.banner-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  font-weight: 700;
+  color: #ffff;
+  text-transform: capitalize;
+}
+
+.page-heading {
+  position: relative;
+  font-size: 35px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-family: 'Playfair Display', serif;
+  color: #ffff;
+  font-weight: 700;
+  line-height: 100%;
+  text-transform: capitalize;
+}
+
+.name-heading {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  color: #ffff;
+  font-size: 30px;
+}
+
+/* .all-heading, */
+.sub-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #e2be91;
+  font-size: 30px;
+  word-spacing: 5px;
+  text-transform: capitalize;
+}
+
+.paragraph-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #5c5c6f;
+  font-size: 13px;
+}
+
+.card-btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+  text-align: center;
+  border-radius: 4px;
+  background: #19547b;
+  color: #ffff;
+  cursor: pointer;
+  line-height: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
+.brand-btn {
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  color: #ffff;
+  border-radius: 5px;
+  background: #19547b;
+  cursor: pointer;
+  line-height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+}
+
+a:hover {
+  color: #fff;
 }
