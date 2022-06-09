@@ -9,7 +9,7 @@ const Projects = () => {
     const projectsData = [
         {
             id: '1',
-            image: bicycleParts,
+            image: "https://i.ibb.co/87B7Zq1/bicycle-parts.png",
             title: "BiCycle Parts Website",
             description:
                 "The user gets service, to give review also see specific order.Includes login system.This website controlled by an admin who can make any other account admin.",
@@ -20,7 +20,7 @@ const Projects = () => {
         },
         {
             id: '2',
-            image: carRepair,
+            image: "https://i.ibb.co/x2ps5bR/car-repair.png",
             title: "Car Repair Website",
             description:
                 "The user gets service, to give review also see specific order.Includes login system.This website controlled by an admin who can make any other account admin.",
@@ -31,7 +31,7 @@ const Projects = () => {
         },
         {
             id: '3',
-            image: laptopStore,
+            image: "https://i.ibb.co/cDVZJvw/laptop-store.png",
             title: "Laptop Store Website",
             description:
                 "This website is one kind of laptop warehouse website. After login  user can deliver product and also update product's quantity.",
@@ -42,7 +42,7 @@ const Projects = () => {
         },
         {
             id: '5',
-            image: Wedding,
+            image: "https://i.ibb.co/RpGfsnZ/wedding.png",
             title: "Wedding Photographer Website",
             description:
                 "This website is one kind of photographer website.After login user can get service from this site.",
