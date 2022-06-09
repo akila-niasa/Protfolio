@@ -1,0 +1,23 @@
+.navbar-nav .nav-item .nav-link {
+    margin: 0 15px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+
+.navbar-weight .navbar-toggat {
+    color: transparent;
+    background-color: transparent;
+}
+
+.navbar-weight .hamburger-icon {
+    color: #fff !important;
+}
