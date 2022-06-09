@@ -1,11 +1,14 @@
-import React from 'react';
-import bicycleParts from '../../../Images/bicycle parts.png'
-import carRepair from '../../../Images/car repair.png'
-import laptopStore from '../../../Images/laptop store.png'
-import Wedding from '../../../Images/wedding.png'
+import React, { useEffect, useState } from 'react';
+
 import ProjectSummaryDetails from '../ProjectSummaryDetails/ProjectSummaryDetails';
 
 const Projects = () => {
+    // const [projectsData,setProjectsData]=useState([])
+    // useEffect(()=>{
+    //     fetch('project.json')
+    //     .then(res=>res.json())
+    //     .then(data=>setProjectsData(data))
+    // },[])
     const projectsData = [
         {
             id: '1',
@@ -39,6 +42,15 @@ const Projects = () => {
             clientLink: "https://github.com/akila-niasa/WareHouse-client-side",
             serverLink: "https://github.com/akila-niasa/warehouse-server",
             tags: "bootstrap,reactjs,react-router,firebase-auth,"
+        },{
+            id: '4',
+            image: "https://i.ibb.co/Kbx4fpq/book-store.png",
+            title: "Book Store Website",
+            description:
+                "This website is one kind of book shopping website.Customer order books from home page and checkout. Admin manages books and adds books.Includes google login systems",
+            clientLink: "https://github.com/akila-niasa/CaR-RePair-client",
+            serverLink: "https://github.com/akila-niasa/car-repair-server",
+            tags: "bootstrap,reactjs,react-router,firebase-auth,mongodb,react-hook form"
         },
         {
             id: '5',
