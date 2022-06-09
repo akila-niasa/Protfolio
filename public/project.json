@@ -1,0 +1,42 @@
+[
+    {
+        "image": "https://i.ibb.co/87B7Zq1/bicycle-parts.png",
+        "title": "BiCycle Parts Website",
+        "description":
+            "The user gets service, to give review also see specific order.Includes login system.This website controlled by an admin who can make any other account admin.",
+        "liveLink": "https://manufacture-store.web.app/.",
+        "clientLink": "https://github.com/akila-niasa/BiCycleParts-client",
+        "serverLink": "https://github.com/akila-niasa/ByCicleParts-server-side",
+        "tags": "reactjs,express js,react-router,tailwind,firebase-auth,mongoDB,react-hook form"
+    },
+    {
+        "image": "https://i.ibb.co/x2ps5bR/car-repair.png",
+        "title": "Car Repair Website",
+        "description":
+            "The user gets service, to give review also see specific order.Includes login system.This website controlled by an admin who can make any other account admin.",
+        "liveLink": "https://car-repair-250f8.web.app/.",
+        "clientLink": "https://github.com/akila-niasa/CaR-RePair-client",
+        "serverLink": "https://github.com/akila-niasa/car-repair-server",
+        "tags": "reactjs,bootstrap,react-router,firebase-auth,mongodb,react-hook form"
+    },
+    {
+        "image":"https://i.ibb.co/cDVZJvw/laptop-store.png" ,
+        "title": "Laptop Store Website",
+        "description":
+            "This website is one kind of laptop warehouse website. After login  user can deliver product and also update product's quantity.",
+        "liveLink": "https://warehouse-management-2d317.web.app.",
+        "clientLink": "https://github.com/akila-niasa/WareHouse-client-side",
+       "serverLink": "https://github.com/akila-niasa/warehouse-server",
+       " tags": "bootstrap,reactjs,react-router,firebase-auth,"
+    },
+    {
+        "image": "https://i.ibb.co/RpGfsnZ/wedding.png",
+        "title": "Wedding Photographer Website",
+        "description":
+            "This website is one kind of photographer website.After login user can get service from this site.",
+        "clientLink": "https://github.com/akila-niasa/wedding-photographer",
+        "tags": "bootstrap,reactjs,react-router,firebase-auth"
+    }
+
+
+]

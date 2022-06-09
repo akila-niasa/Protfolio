@@ -36,9 +36,9 @@ const HomeHeader = () => {
                Fornt-end developer
             </h1>
             
-           <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1mYS8uhDWBgLy6C3C7mfgrvnnz5ff7JmF/view">
+           <a  className="brand-btn" href="https://drive.google.com/file/d/1mYS8uhDWBgLy6C3C7mfgrvnnz5ff7JmF/view?usp=sharing">
                <FaCloudDownloadAlt/>
-               Download</a>
+               Download Resume</a>
            
         </div>
     </main>
