@@ -1,19 +1,19 @@
 .portfolio-form input {
     border: none;
-    border-bottom: 2px solid #e2be91;
+    border-bottom: 2px solid #e2d1bd;
     border-radius: 0;
 }
 
 .portfolio-form textarea {
     border: none;
-    border-bottom: 2px solid #e2be91;
+    border-bottom: 2px solid #e1d4c4;
     border-radius: 0;
 }
 
 .portfolio-form input:focus {
     border: none;
     outline: none;
-    border-bottom: 2px solid #e2be91;
+    border-bottom: 2px solid #e8d8c5;
     border-radius: 0;
 }
 
@@ -21,12 +21,12 @@
     box-sizing: border-box;
     width: 450px;
     height: 100px;
-    border: 3px solid #e2be91;
+    border: 3px solid #d1c3b3;
 }
 
 .icon {
     font-size: 25px;
-    color: #e2be91;
+    color: #e3cdb3;
 
 }
 

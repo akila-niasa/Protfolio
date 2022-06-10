@@ -48,12 +48,12 @@ const Contact = () => {
                             </div>
                         </form>
                     </div>
-                    <div className="col-md-5">
+                    <div className="col-md-5 ">
                         <div className="contact-wrapper shadow p-3  bg-body rounded">
                             <div className="sideContactInner d-flex justify-content-around">
                                 <div><FaPhoneAlt/></div>
                                 <div> <p>Mobile Number</p></div>
-                                <div><h6>+880</h6></div>
+                                <div><h6>+8801867705676</h6></div>
                             </div>
                         </div>
                         <div className="contact-wrapper shadow p-3  bg-body rounded">

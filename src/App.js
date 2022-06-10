@@ -8,9 +8,14 @@ import Contact from './Components/Contact/Contact';
 import About from './Components/About/About';
 import Details from './Components/Details/Details';
 import Blogs from './Components/Blogs/Blogs';
-
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="App">
       <NavBar />

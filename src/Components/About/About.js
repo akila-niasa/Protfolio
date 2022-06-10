@@ -88,7 +88,20 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-
+                <div className="row">
+                    <div className="col-md-12 mt-3 mb-5">
+                        <h2 className="name-heading p-5">Technology skills</h2>
+                        <div className="wrap-skills">
+                            <div><img className="img-fluid" src="https://i.ibb.co/jwJ4dbr/react.png" alt="" /></div>
+                            <div><img className="img-fluid" src="https://i.ibb.co/V3JRzzq/js.png" alt="" /></div>
+                            <div><img className="img-fluid" src="https://i.ibb.co/CHz3c8J/css.png" alt="" /></div>
+                            <div><img className="img-fluid" src="https://i.ibb.co/j41Xxtn/html.png" alt="" /></div>
+                            <div><img className="img-fluid" src="https://i.ibb.co/vYcyvdR/firebase.png" alt="" /></div>
+                            <div><img className="img-fluid" src="https://i.ibb.co/72nT0KC/reactbootstrap.png" alt="" /></div>
+                           
+                    </div>
+                </div>
+</div>
             </div>
         </section>
     );

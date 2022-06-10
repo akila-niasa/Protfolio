@@ -1,6 +1,8 @@
 import React from 'react';
 import './HomeHeader.css'
 import { FaGithubAlt, FaLinkedinIn, FaTwitter, FaCloudDownloadAlt } from 'react-icons/fa';
+import Typewriter from "typewriter-effect";
+
 
 const HomeHeader = () => {
     return (
@@ -31,9 +33,15 @@ const HomeHeader = () => {
 
                 <h3 className="name-heading pt-3">ATHQIYA AKILA</h3>
                 <h1 className="banner-heading pb-2">{''}
+                <Typewriter
+                        options={{
+                            strings: ['Fornt-end developer'],
+                            autoStart: true,
+                            loop: true,
+                        }}
+                    />
 
-
-                    Fornt-end developer
+                   
                 </h1>
 
                 <a className="brand-btn" href="https://drive.google.com/file/d/1mYS8uhDWBgLy6C3C7mfgrvnnz5ff7JmF/view?usp=sharing">

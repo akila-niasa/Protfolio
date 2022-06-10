@@ -7,7 +7,7 @@ const ProjectSummaryDetails = (proData) => {
   const technologySplit = proData.proData.tags?.split(',')
   return (
     <div>
-      <div className="card shadow p-3 mb-5 bg-body rounded">
+      <div data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" className="card shadow p-3 mb-5 bg-body rounded">
         <img src={image} className="card-img-top img-fluid" alt="..." />
         <div className="card-body">
           <div className="mt-3">
