@@ -10,7 +10,7 @@ import Details from './Components/Details/Details';
 import Blogs from './Components/Blogs/Blogs';
 import { useEffect } from 'react';
 import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+import 'aos/dist/aos.css';
 
 function App() {
   useEffect(() => {
@@ -22,9 +22,9 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='contact' element={<Contact />} />
-        <Route path='about' element={<About/>} />
-        <Route path='blogs' element={<Blogs/>} />
-        <Route path='/details/:id' element={<Details/>} />
+        <Route path='about' element={<About />} />
+        <Route path='blogs' element={<Blogs />} />
+        <Route path='/details/:id' element={<Details />} />
 
       </Routes>
     </div>

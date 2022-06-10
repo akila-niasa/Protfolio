@@ -98,10 +98,10 @@ const About = () => {
                             <div><img className="img-fluid" src="https://i.ibb.co/j41Xxtn/html.png" alt="" /></div>
                             <div><img className="img-fluid" src="https://i.ibb.co/vYcyvdR/firebase.png" alt="" /></div>
                             <div><img className="img-fluid" src="https://i.ibb.co/72nT0KC/reactbootstrap.png" alt="" /></div>
-                           
+
+                        </div>
                     </div>
                 </div>
-</div>
             </div>
         </section>
     );

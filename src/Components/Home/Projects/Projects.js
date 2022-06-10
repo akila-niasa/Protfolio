@@ -42,7 +42,7 @@ const Projects = () => {
             clientLink: "https://github.com/akila-niasa/WareHouse-client-side",
             serverLink: "https://github.com/akila-niasa/warehouse-server",
             tags: "bootstrap,reactjs,react-router,firebase-auth,"
-        },{
+        }, {
             id: '4',
             image: "https://i.ibb.co/Kbx4fpq/book-store.png",
             title: "Book Store Website",
@@ -67,7 +67,7 @@ const Projects = () => {
     return (
         <section className="section-projectSummary section">
             <div className="container">
-                <h2 className="page-heading data-show">Projects</h2>
+                <h2 className="page-heading data-show">My Projects</h2>
                 <div className="row">
                     <div className="row row-cols-1 row-cols-md-2 g-4">
                         {projectsData.map((proData) => (

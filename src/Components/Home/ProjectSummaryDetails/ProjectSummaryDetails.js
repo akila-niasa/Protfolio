@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './ProjectSummaryDetails.css'
 
 const ProjectSummaryDetails = (proData) => {
-  const { image, title, description, liveLink, clientLink, serverLink,id } = proData.proData;
+  const { image, title, description, liveLink, clientLink, serverLink, id } = proData.proData;
   const technologySplit = proData.proData.tags?.split(',')
   return (
     <div>
@@ -32,18 +32,18 @@ const ProjectSummaryDetails = (proData) => {
             </div>
             {
               serverLink && <>
-              <div className="code-btn">
-              <a href={serverLink} className="card-btn" target="_blank" rel="noreferrer">
-                Server Side
-              </a>
-            </div>
+                <div className="code-btn">
+                  <a href={serverLink} className="card-btn" target="_blank" rel="noreferrer">
+                    Server Side
+                  </a>
+                </div>
               </>
             }
-           
+
           </div>
           <div className="code-btn mt-3">
-            <Link className="card-btn p-3"  to={`/details/${id}`}>Details WebSite</Link>
-            </div>
+            <Link className="card-btn p-3" to={`/details/${id}`}>Details WebSite</Link>
+          </div>
         </div>
       </div>
     </div>

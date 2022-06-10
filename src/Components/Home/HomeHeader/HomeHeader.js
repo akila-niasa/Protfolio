@@ -33,7 +33,7 @@ const HomeHeader = () => {
 
                 <h3 className="name-heading pt-3">ATHQIYA AKILA</h3>
                 <h1 className="banner-heading pb-2">{''}
-                <Typewriter
+                    <Typewriter
                         options={{
                             strings: ['Fornt-end developer'],
                             autoStart: true,
@@ -41,7 +41,7 @@ const HomeHeader = () => {
                         }}
                     />
 
-                   
+
                 </h1>
 
                 <a className="brand-btn" href="https://drive.google.com/file/d/1mYS8uhDWBgLy6C3C7mfgrvnnz5ff7JmF/view?usp=sharing">
